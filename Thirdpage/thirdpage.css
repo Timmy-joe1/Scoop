@@ -1,0 +1,197 @@
+
+body{
+    background: black;
+    color: rgb(211, 203, 203);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.container{
+    padding-top: 100px;
+    padding-left: 10%;
+}
+
+.nav-item div{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(to right, rgb(255, 81, 0), yellow);
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin: 0px -7px;
+}
+
+.nav-item .fas{
+    margin-top: 10px;
+}
+
+.jumbo{
+    background: inherit;
+    
+}
+
+
+hr{
+    border: 1px solid white;
+    margin-left: 0%;
+}
+
+.profile-hr{
+    width: 14%;
+    border-color: yellow;
+    display: inline-block;
+    
+}
+
+.hr2{
+    /* position: absolute; */
+    width: 2%;
+    border-color: yellow;
+    /* top: 292px;
+    left: 100px; */
+    display: inline-block;
+   
+}
+
+/* .form-check .radio{
+    color: yellow;
+    background: yellow;
+   
+    
+}
+
+input[type=radio]{
+    border-radius: 15px;
+    border: double 2px #00f;
+    color: #fff;
+    background: #0b0095;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    
+} */
+
+.radio-check {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    font-size: 22px;
+  }
+
+  .radio-check input {
+    position: absolute;
+   top: 20px;
+   left: 0%;
+   opacity: 0;
+    cursor: pointer;
+  }
+
+  .radio-check .text{
+      margin-left: 3.5%;
+  }
+
+  .checkmark {
+    position: absolute;
+    top: 14px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+    margin-right: 2%;
+    background: linear-gradient(to right, rgb(255, 81, 0), yellow);
+  }
+
+  .radio-check input:checked ~ .checkmark {
+    background: #2196F3;
+  }
+
+
+
+  input[type=range] {
+    -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
+    width: 45%;
+      margin-left: 4%;
+      margin-top: 30px;
+    background: transparent; /* Otherwise white in Chrome */
+    border: none;
+  }
+
+  input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: 1px solid #000000;
+    height: 20px;
+    width: 35px;
+    border-radius: 3px;
+    background: linear-gradient(to right, rgb(255, 81, 0), yellow);
+    cursor: pointer;
+    margin-top: -7px;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d; /* Add cool effects to your sliders! */
+    border: none;
+  }
+
+  input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 6px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    background: linear-gradient(to right, rgb(255, 81, 0), yellow);
+    border-radius: 4px;
+    border: 0.2px solid #010101;
+  }
+
+.jumbo .set{
+    margin-bottom: 20px;
+    line-height: 50px;
+}
+
+.jumbo .sec{
+    margin-bottom: 30px;
+}
+
+.jumbo .topics{
+    margin-top: 70px;
+}
+
+.topic-btns .btn, .sec .btn{
+    margin: 7px 10px 10px 0px;
+    
+}
+
+.sec .more-topics{
+    width: 50%;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 20px 0;
+    
+}
+
+.more-topics .btn{
+margin-top: 9px;
+margin-left: 2%;
+background: linear-gradient(to right, rgb(255, 81, 0), yellow);
+border: none;
+}
+
+.all-topics .btn{
+    background: rgb(219, 217, 217);
+    color: black;
+    border: none;
+}
+
+.save, .setup{
+    width: 110px;
+    height: 60px;
+    font-size: 180%;
+    background: linear-gradient(to right, rgb(255, 81, 0), yellow);
+    border: none;
+    color: white;
+}
+
+.setup{
+    width: 220px;
+    float: right;
+    
+}
